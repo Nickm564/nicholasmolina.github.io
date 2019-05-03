@@ -3,11 +3,55 @@
 		<head>
 			<title>Home</title>
 			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1"><!--So it fits any screen*-->
+			<style>
+				body {
+					background-color: #292826;
+					color: white;
+					margin: 0;
+					font-family: Arial, Helvetica, sans-rerif;
+				}
+
+				.topnav {
+  					overflow: hidden;
+  					background-color: #F9D342; /*Gold color for other tabs*/
+				}
+
+				.topnav a {
+  					float: left;
+  					color: #f2f2f2;
+  					text-align: center;
+  					padding: 14px 16px;
+  					text-decoration: none;
+  					font-size: 17px;
+				}
+
+				.topnav a:hover {
+  				background-color: #ddd;
+  				color: red;
+				}
+
+				.topnav a.active {
+  				background-color: #ba4343;
+  				color: white;
+				}	
+
+				}
+			</style>
 		</head>
 		<body>
-			<h1>
-				<p> Welcome To my Webpage!</p>
-			</h1>		
+			<!-- Top Bar Names and labels working under div container -->
+			<div class="topnav"> 
+				<a class="active" href="#home">Home</a>
+				<a href="#resume">Resume</a>
+				<a href="#comm">Code</a>
+				<a href="#about">About</a>
+			</div>
+
+			<div style="padding-left:16px">
+  			</div>
+
+			 <p>"Hello World!</p>
 		</body>
 
 	</html>
