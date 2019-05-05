@@ -1,0 +1,31 @@
+body {
+					background-color: #292826;
+					color: white;
+					margin: 0;
+					font-family: Arial, Helvetica, sans-rerif;
+				}
+
+				.topnav {
+  					overflow: hidden;
+  					background-color: #F9D342; /*Gold color for other tabs*/
+				}
+
+				.topnav a {
+  					float: left;
+  					color: black;
+  					text-align: center;
+  					padding: 14px 16px;
+  					text-decoration: none;
+  					font-size: 17px;
+				}
+
+				.topnav a:hover {
+  				background-color: #ddd;
+  				color: red;
+				}
+
+				.topnav a.active {
+  				background-color: #ba4343;
+  				color: black;
+				}	
+}
